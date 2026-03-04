@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2E2E;
+    background-color: #FFFFFF;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.hero-section {
+    background-color: #F4F4F4;
+}
+
+.hero-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0A3D62;
+}
+
+.hero-subtitle {
+    font-size: 1.05rem;
+    color: #555555;
+}
+
+.btn-primary {
+    background-color: #0A3D62;
+    border-color: #0A3D62;
+    border-radius: 999px;
+    padding: 0.6rem 1.8rem;
+}
+
+.btn-primary:hover {
+    background-color: #3C6382;
+    border-color: #3C6382;
+}
+
+.hero-box {
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #0A3D62, #3C6382);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.list-group-item {
+    border-radius: 10px !important;
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list-group-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0A3D62;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
